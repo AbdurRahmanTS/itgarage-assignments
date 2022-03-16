@@ -1,0 +1,55 @@
+.media {
+  height: 216px;
+  margin-bottom: 25px;
+  background: #394264;
+  border-radius: 5px;
+}
+#media-display {
+  position: relative;
+  height: 180px;
+  background: #787878
+    url("https://www.fancinema.com.ar/wp-content/uploads/catwoman1.jpg") center
+    top;
+}
+.play-button {
+    position: absolute;
+  top: 75px;
+  right: 128px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 6px 5px 6px 6px;
+    color: white;
+}
+.play-button:hover {
+    color: #e64c65;
+    border: 2px solid #e64c65;
+  }
+
+
+.media-btn {
+  display: inline-block;
+  margin: 0;
+}
+.time-passed {
+  display: inline-block;
+  
+}
+.media-btn {
+  font-size: 19px;
+}
+.media-btn:hover {
+  text-decoration: none;
+  color: #e64c65;
+}
+.scnd-font-color:hover {
+    color: #e64c65;
+}
+.play {
+  margin-right: 100px;
+}
+.volume {
+  margin-left: 10px;
+}
+.resize {
+  margin-left: 8px;
+}

@@ -1,0 +1,59 @@
+.social {
+  display: flex;
+  height: 110px;
+  list-style: none;
+  padding: 0;
+}
+.social li {
+  width: 75px;
+  height: 110px;
+}
+.social li .icon {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  line-height: 75px;
+}
+.social li .number {
+  text-align: center;
+  margin: 0;
+  line-height: 34px;
+}
+.social .facebook {
+  background: #3468af;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.social .facebook .number {
+  background: #1a4e95;
+  border-bottom-left-radius: 5px;
+}
+.social .twitter {
+  background: #4fc4f6;
+}
+.social .twitter .icon {
+  font-size: 18px;
+}
+.social .twitter .number {
+  background: #35aadc;
+}
+.social .googleplus {
+  background: #e64c65;
+}
+.social .googleplus .number {
+  background: #cc324b;
+}
+.social .mailbox {
+  background: #50597b;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.social .mailbox .number {
+  background: #363f61;
+  border-bottom-right-radius: 5px;
+}
+.block {
+    margin-bottom: 25px;
+    background: #394264;
+    border-radius: 5px;
+  }

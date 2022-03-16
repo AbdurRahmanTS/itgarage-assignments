@@ -1,0 +1,60 @@
+.profile {
+    margin-bottom: 25px !important;
+    background: #394264 !important;
+    border-radius: 5px !important;
+}
+.plus-icon {
+    color: #9099b7 !important;
+}
+.plus-icon:hover {
+    color: #e64c65 !important;
+}
+.profile-options {
+    padding-top: 23px;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: -8px;
+  }
+  .profile-options li {
+    border-left: 1px solid #1f253d;
+  }
+  .profile-options p {
+    margin: 0;
+    color: white;
+  }
+  .profile-options a {
+    display: block;
+    text-decoration: none;
+    width: 99px;
+    line-height: 60px;
+    text-align: center;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+  }
+  .profile-options a:hover {
+    text-decoration: none;
+    background: #50597b;
+  }
+  .profile-options a:hover.comments .icon {
+    color: #fcb150;
+  }
+  .profile-options a:hover.views .icon {
+    color: #11a8ab;
+  }
+  .profile-options a:hover.likes .icon {
+    color: #e64c65;
+  }
+  .profile-options .icon {
+    padding-right: 10px;
+  }
+  .profile-options .comments {
+    border-top: 4px solid #fcb150;
+  }
+  .profile-options .views {
+    border-top: 4px solid #11a8ab;
+  }
+  .profile-options .likes {
+    border-top: 4px solid #e64c65;
+  }
+  
